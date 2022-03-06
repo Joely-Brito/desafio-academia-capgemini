@@ -13,4 +13,8 @@ function mostraMediana(numeros) {
     const posicaoCentral = (numeros.length + 1) / 2;
     console.log(numeros[posicaoCentral - 1]); 
 }
- mostraMediana([10, 20, 30, 40, 50, 60, 25]);
+
+const exemplo1 = [1, 5, 3, 4, 2]
+const exemplo2 = [10, 20, 30, 40, 50, 60, 25]
+mostraMediana(exemplo1);
+mostraMediana(exemplo2);
